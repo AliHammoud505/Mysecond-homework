@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: green;
+}
+#b{
+display: flex;
+justify-content: center;
+color: red;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+</head>
+<body>
+<div id="b">
+        <a href="/">Home</a>
+        <a href="/1">Page 1</a>
+        <a href="/2">Page 2</a>
+</div>
+    <div id="a">
+        <h1>السؤال الثاني</h1>
+</div>
+<div id="a">
+        <p>علي نواف  حمود 2053 </p>
+</div>
+<div id="a">
+        <img src="{{ url_for('static', filename='1.jpg') }}" alt="My Image">
+    </div>
+</body>
+</html>
